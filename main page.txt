@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Estes Fiber Emporium</title>
+<style>
+body {
+  margin: 0;
+}
+
+a:hover {
+  color: gold;
+ Text-decoration: none;
+}
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+  <h1><b><a href="default.asp" target="_blank">Welcome to Estes Fiber Emporium!</a></b></h1>
+</div>
+
+</body>
+</html>
