@@ -5,9 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Welcome to Estes Fiber Emporium!</title>
 <style>
+@keyframes typing {
+    0% { width: 0; }
+    100% { width: 100%; }
+}
+
+h1 {
+    overflow: hidden;
+    border-right: .15em solid #000;
+    white-space: nowrap;
+    animation: typing 3s steps(30) 1s forwards;
+}
+
   img {
   max-width: 100%;
   height: auto;
+}
+h1 {
+    overflow: hidden;
+    border-right: .15em solid #000;
+    white-space: nowrap;
+    animation: typing 3s steps(30) 1s forwards;
 }
 h1 {text-align: center;}
 a:hover {
